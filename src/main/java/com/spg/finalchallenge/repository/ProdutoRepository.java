@@ -1,0 +1,13 @@
+package com.spg.finalchallenge.repository;
+
+import com.spg.finalchallenge.entity.Product;
+import org.springframework.data.jpa.repository.JpaRepository;
+
+public interface ProdutoRepository extends JpaRepository<Product, Long> {
+
+    Product findById(long id);
+
+    Product save(Product product);
+
+    long count();
+}
