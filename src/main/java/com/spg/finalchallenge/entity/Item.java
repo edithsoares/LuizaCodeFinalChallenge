@@ -1,6 +1,5 @@
 package com.spg.finalchallenge.entity;
 
-
 import javax.persistence.*;
 import javax.validation.constraints.NotNull;
 import java.io.Serializable;
@@ -8,8 +7,8 @@ import java.math.BigDecimal;
 import java.util.List;
 
 @Entity
-@Table(name = "wishlist")
-public class Wishlist implements Serializable {
+@Table(name = "item")
+public class Item implements Serializable {
 
     private static final long serialVersionUID = 1L;
 
@@ -21,13 +20,15 @@ public class Wishlist implements Serializable {
     @Column
     private BigDecimal valorTotal;
 
-    // Chaves Estrangeiras
-    @OneToOne // 1 para 1
-    @JoinColumn(name = "idCliente")
+    @NotNull
+    @OneToOne
+    @JoinColumn(name = "IdCliente")
     private Client client;
 
-    @OneToMany // 1 para n
-    private List<Product> produtos;
+    @NotNull
+    @OneToMany
+    private List<Product> product;
+
 
     public Long getId() {
         return Id;
@@ -53,11 +54,11 @@ public class Wishlist implements Serializable {
         this.client = client;
     }
 
-    public List<Product> getProdutos() {
-        return produtos;
+    public List<Product> getProduct() {
+        return product;
     }
 
-    public void setProdutos(List<Product> produtos) {
-        this.produtos = produtos;
+    public void setProduct(List<Product> product) {
+        this.product = product;
     }
 }
