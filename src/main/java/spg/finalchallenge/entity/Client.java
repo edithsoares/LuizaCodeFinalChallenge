@@ -1,10 +1,7 @@
 package spg.finalchallenge.entity;
 
-
 import com.sun.istack.NotNull;
-
 import javax.persistence.*;
-import javax.validation.constraints.Size;
 import java.io.Serializable;
 
 @Entity
@@ -13,22 +10,19 @@ public class Client implements Serializable {
     private static final long serialVersionUID = 1L;
 
     @Id
-    @GeneratedValue(strategy = GenerationType.SEQUENCE)
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long Id;
 
     @NotNull
-    @Column(name = "nome")
-    @Size(min = 1, max = 100)
+    @Column
     private String name;
 
     @NotNull
-    @Column(name = "cpf")
-    @Size(min = 11, max = 11)
+    @Column
     private String cpf;
 
     @NotNull
-    @Column(name = "address")
-    @Size(min = 1, max = 100)
+    @Column
     private String address;
 
     public Long getId() {

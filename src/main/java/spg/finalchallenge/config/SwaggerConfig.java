@@ -30,11 +30,12 @@ public class SwaggerConfig {
 
     private ApiInfo metaInfo(){
         ApiInfo apiInfo = new ApiInfo(
-                "Luiza Code",
-                "API REST desenvolvida para as aulas do curso da Luiza Code",
+                "Wishlist API",
+                "API REST desenvolvida para o desafio final Luiza Code",
                 "1.0",
                 "Terms of service",
-                new Contact("Tainá Medeiros", "","tainajmedeiros@gmail.com"),
+                new Contact("Edith Soares / Pollyana Veloso / Marcela Lima / Maria Tereza / Larissa Palhao",
+                        "","[edith.soaares, pollyvel20, limamarcela6795, therezaaltarugio, larissa.palhao]@gmail.com"),
                 "Apcahe License Version 2.0",
                 "https://www.apache.org/license.html", new ArrayList<VendorExtension>()
         );

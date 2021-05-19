@@ -36,7 +36,7 @@ requisitos:**
 <table>
   <td align="center"><br>
         <a href="">
-            <img src="https://avatars.githubusercontent.com/u/60053229?v=4" width="105px;" alt="Edith Soares" style="max-width:100%;">
+            <img src="https://avatars.githubusercontent.com/u/60053229?v=4" width="105px;" alt="Edith Soares" style="max-width:100%;border-radius: 50%;">
             <br><sub><b>Edith Soares</b></sub><br>
         <p align="center">
             </a>
@@ -53,7 +53,7 @@ requisitos:**
 </td>
  <td align="center"><br>
         <a href="">
-            <img src="https://avatars.githubusercontent.com/u/83894378?v=4" width="105px;" alt="Pollyana Veloso" style="max-width:100%;">
+            <img src="https://avatars.githubusercontent.com/u/83894378?v=4" width="105px;" alt="Pollyana Veloso" style="max-width:100%;border-radius: 50%;">
             <br><sub><b>Pollyana Veloso</b></sub><br>
         <p align="center">
             </a>
@@ -72,7 +72,7 @@ requisitos:**
 //CONTINUAR AQUI
  <td align="center"><br>
         <a href="">
-            <img src="https://avatars.githubusercontent.com/u/83829276?v=4" width="105px;" alt="Marcela Lima" style="max-width:100%;">
+            <img src="https://avatars.githubusercontent.com/u/83829276?v=4" width="105px;" alt="Marcela Lima" style="max-width:100%;border-radius: 50%;">
             <br><sub><b>Marcela Lima</b></sub><br>
         <p align="center">
             </a>
@@ -89,7 +89,7 @@ requisitos:**
 </td>
  <td align="center"><br>
         <a href="">
-            <img src="https://media-exp1.licdn.com/dms/image/C4E03AQEvax-YywQ5_Q/profile-displayphoto-shrink_800_800/0/1520895453031?e=1626307200&v=beta&t=RobigoX5QOGHIOSDcs7Zqiq3eTopU3lc3wBE2zO506U" width="105px;" alt="Maria Tereza" style="max-width:100%;">
+            <img src="https://media-exp1.licdn.com/dms/image/C4E03AQEvax-YywQ5_Q/profile-displayphoto-shrink_800_800/0/1520895453031?e=1626307200&v=beta&t=RobigoX5QOGHIOSDcs7Zqiq3eTopU3lc3wBE2zO506U" width="105px;" alt="Maria Tereza" style="max-width:100%;border-radius: 50%;">
             <br><sub><b>Maria Tereza</b></sub><br>
         <p align="center">
             </a>
@@ -106,7 +106,7 @@ requisitos:**
 </td>
 <td align="center"><br>
         <a href="">
-            <img src="https://media-exp1.licdn.com/dms/image/C4E03AQE6FGRIkmi9QA/profile-displayphoto-shrink_800_800/0/1620351775178?e=1626307200&v=beta&t=ZnnNt9FzKCnidGL6MQtmQQR7oUCyZ8q70viHGOAfFto" width="105px;" alt="Maria Tereza" style="max-width:100%;">
+            <img src="https://media-exp1.licdn.com/dms/image/C4E03AQE6FGRIkmi9QA/profile-displayphoto-shrink_800_800/0/1620351775178?e=1626307200&v=beta&t=ZnnNt9FzKCnidGL6MQtmQQR7oUCyZ8q70viHGOAfFto" width="105px;" alt="Maria Tereza" style="max-width:100%;border-radius: 50%;">
             <br><sub><b>Larissa Palhao</b></sub><br>
         <p align="center">
             </a>

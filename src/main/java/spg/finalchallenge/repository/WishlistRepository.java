@@ -8,9 +8,7 @@ import spg.finalchallenge.entity.Wishlist;
 public interface WishlistRepository extends JpaRepository<Wishlist, Long> {
     Wishlist findById(long id);
 
-//    WishlistService save(WishlistService wishlist);
+    Wishlist findByClientCpf(String cpf);
 
-    long count();
 
-    Wishlist save(Wishlist wishlist);
 }

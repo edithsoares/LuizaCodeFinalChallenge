@@ -14,21 +14,19 @@ public class Product implements Serializable {
     private static final long serialVersionUID = 1L;
 
     @Id
-    @GeneratedValue(strategy = GenerationType.SEQUENCE)
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long Id;
 
     @NotNull
-    @Column(name = "name")
-    @Size(min = 1, max = 100)
+    @Column
     private String name;
 
     @NotNull
-    @Column(name = "value")
+    @Column
     private BigDecimal value;
 
     @NotNull
-    @Column(name = "description")
-    @Size(min = 1, max = 100)
+    @Column
     private String description;
 
     public Long getId() {
@@ -62,4 +60,5 @@ public class Product implements Serializable {
     public void setDescription(String description) {
         this.description = description;
     }
+
 }

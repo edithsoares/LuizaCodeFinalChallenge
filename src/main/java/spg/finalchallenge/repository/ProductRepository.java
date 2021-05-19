@@ -7,9 +7,5 @@ import spg.finalchallenge.entity.Product;
 @Repository
 public interface ProductRepository extends JpaRepository<Product, Long> {
 
-    Product findById(long id);
-
-    Product save(Product product);
-
-    long count();
+    Product findById(long Id);
 }

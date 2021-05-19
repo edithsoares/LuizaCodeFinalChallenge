@@ -1,6 +1,8 @@
 package spg.finalchallenge.entity;
 
+import com.fasterxml.jackson.annotation.JsonFormat;
 import com.sun.istack.NotNull;
+import org.hibernate.annotations.CreationTimestamp;
 
 import javax.persistence.*;
 import java.io.Serializable;
@@ -14,13 +16,11 @@ public class Wishlist implements Serializable {
 
     private static final long serialVersionUID = 1L;
 
-    @Id
-    @GeneratedValue(strategy = GenerationType.SEQUENCE)
-    private Long Id;
+//    private static final String MY_TIME_ZONE="Asia/Kolkata";
 
-    @NotNull
-    @Column(name = "total")
-    private BigDecimal total;
+    @Id
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    private Long Id;
 
     @OneToOne
     @JoinColumn(name = "idClient")
@@ -29,9 +29,19 @@ public class Wishlist implements Serializable {
     @OneToMany
     private List<Product> products;
 
+    @CreationTimestamp
+    @Column(updatable = false)
+    @JsonFormat(shape = JsonFormat.Shape.STRING, pattern = "dd-MM-yyyy HH:mm:ss", timezone="GMT-3")
+    private Date date;
+
+    @Column
+    @NotNull
+    private long Quantity;
+
     @NotNull
     @Column
-    private Date date;
+    private BigDecimal totalPrice;
+
 
     public Long getId() {
         return Id;
@@ -41,12 +51,12 @@ public class Wishlist implements Serializable {
         Id = id;
     }
 
-    public BigDecimal getTotal() {
-        return total;
+    public BigDecimal getTotalPrice() {
+        return totalPrice;
     }
 
-    public void setTotal(BigDecimal total) {
-        this.total = total;
+    public void setTotalPrice(BigDecimal totalPrice) {
+        this.totalPrice = totalPrice;
     }
 
     public Client getClient() {
@@ -72,4 +82,13 @@ public class Wishlist implements Serializable {
     public void setDate(Date date) {
         this.date = date;
     }
+
+    public void setQuantity(long quantity) {
+        Quantity = quantity;
+    }
+
+    public long getQuantity() {
+        return Quantity;
+    }
+
 }
