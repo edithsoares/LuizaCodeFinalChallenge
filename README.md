@@ -57,12 +57,12 @@ _Voce pode testar o projeto hospedado no Heroku clicando [Aqui](https://finalcha
 ## Tecnologias Utilizadas: <br><br>
 
 <a href="Java">
-   <img align="center" alt="java" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original-wordmark.svg">
+   <img align="center" alt="java" height="40" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original-wordmark.svg">
 </a><a href="Java">
-   <img align="center" alt="spring" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/spring/spring-original-wordmark.svg">
+   <img align="center" alt="spring" height="40" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/spring/spring-original-wordmark.svg">
 </a>
 <a href="Java">
-   <img align="center" alt="mysql" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original-wordmark.svg">
+   <img align="center" alt="mysql" height="40" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original-wordmark.svg">
 </a>
 
 * [Java 11 or more]
