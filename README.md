@@ -120,9 +120,10 @@ _Product_
 ![end-point-adicional-product](https://user-images.githubusercontent.com/60053229/118973581-3604cc00-b948-11eb-8e16-c7f9c7699a92.png)
 
 
-### <p align="center"> Equipe desenvolvedora </p>
+## <p align="center"> Equipe desenvolvedora </p>
 
-<table>
+
+<table align="center">
   <td align="center"><br>
         <a href="">
             <img src="https://avatars.githubusercontent.com/u/60053229?v=4" width="105px;" alt="Edith Soares" style="max-width:100%;border-radius: 50%;">
