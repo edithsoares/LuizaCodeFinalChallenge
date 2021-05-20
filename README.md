@@ -1,25 +1,47 @@
-## <p align="center"> Squad  Super Powerfull girls</p>
-#### <p align="center"> Turma 2 - Grupo 1</p>
+# <p align="center"> Squad  Super Powerfull girls</p>
+
+#### <h4 align="center"> Turma 2 - Grupo 1</h4>
 
 
-###  Desafio WishList final LuizaCode
+<p align="center">
+    <h3 align="center">Final challenge API</h3>
+    <p align="center">
+    REST API desenvolvida para o projeto final do Luiza Code 2021
+    <br />
+   </p>
+<p>
 
-- Desenvolver funcionalidade de Wishlist, ou a lista de desejos, para um e-commerce.<p>No e-commerce o cliente pode
-  realizar a busca de produtos, ou pode acessar a tela de detalhes do produto e em ambas as telas ele pode selecionar os
-  produtos de sua preferência e armazená-los na sua Wishlist. A qualquer momento o cliente pode visualizar sua Wishlist
-  completa, com todos os produtos que ele selecionou em uma única tela.
+## Table of contents
 
-###  Objetivo:
+<!--ts-->
 
-**Desenvolver um serviço HTTP resolvendo a funcionalidade de Wishlist do cliente. Esse serviço deve atender os seguintes
-requisitos:**
+* [Sobre o projeto](#about-the-project)
+* [Arquitetura](#architecture)
+* [Tecnologias utilizadas](#built-withs)
+* [Começando](#getting-started)
+* [Instalando](#installation)
+* [Uso](##usage)
+* [Contatos](#Contacts)
 
-- Adicionar um produto na Wishlist do cliente;
-- Remover um produto da Wishlist do cliente;
-- Consultar todos os produtos da Wishlist do cliente;
-- Consultar se um determinado produto está na Wishlist do cliente;
+<!--te-->
 
-**API contendo os seguintes endpoints:**
+# Sobre o projeto
+
+Desenvolver funcionalidade de Wishlist, ou lista de desejos, para um e-commerce.<p>No e-commerce o cliente pode
+realizar a busca de produtos, ou pode acessar a tela de detalhes do produto e em ambas as telas ele pode selecionar os
+produtos de sua preferência e armazená-los na sua Wishlist. A qualquer momento o cliente pode visualizar sua Wishlist
+completa, com todos os produtos que ele selecionou em uma única tela.
+
+Essa API permite a aplicação do conhecimento que desenvolvemos durante o curso.Colocando em prática os conceitos e
+axercicos propostos, centralizando as principais caractericas de uma Wishlist.
+
+_Voce pode testar o projeto hospedado no Heroku clicando [Aqui](https://finalchallenger-api.herokuapp.com/swagger-ui.html#)_
+
+![swagger](https://user-images.githubusercontent.com/60053229/118902238-a6313480-b8eb-11eb-9bc1-73469630c07b.PNG)
+
+## Arquitetura do projeto:
+
+**Contem os seguintes EndPoints obrigatorios**
 
 - Cadastro de produto
 - Cadastro de cliente
@@ -28,7 +50,74 @@ requisitos:**
 - Consultar todos os produtos da Wishlist da cliente;
 - Consultar se um determinado produto está na Wishlist da cliente;
 
+* EndPoints que podem ser usados por uma aplicação FrontEnd
+* Exemplo de um database simples, porém com relacionamentos do tipo OneToOne e OneToMany
 
+
+## Tecnologias Utilizadas: <br><br>
+
+<a href="Java">
+<img align="center" alt="java" height="30" width="40" src=" https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original-wordmark.svg">
+</a><a href="Java">
+<img align="center" alt="java" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/spring/spring-original-wordmark.svg">
+</a>
+<a href="Java">
+<img align="center" alt="java" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original-wordmark.svg">
+</a>
+
+* [Java 11 or more]
+* [Spring framework]
+* [Bando de dados H2 para testes]
+* [Banco de dados MySql produção]
+
+
+<!-- GETTING STARTED -->
+## Começando
+
+Siga as instruções para executar a API.
+
+### Instalando
+
+1. Clone o repositório
+   ```sh
+   git clone HTTPS https://github.com/edithsoares/LuizaCodeFinalChallenge.git
+     or
+   git clone SSH git@github.com:edithsoares/LuizaCodeFinalChallenge.git
+   ```
+2. Excute o projeto por qualquer IDE
+   ```sh
+   run
+   ```
+3. Acesse os endpoints
+   ```sh
+   Postman / Insomnia 
+   ```
+4. Acesse o Swagger
+   ```sh
+   localhost:8080/swagger-uui.html
+
+
+<!-- USAGE EXAMPLES -->
+## Uso
+
+Você tem acesso aos seguintes endpoints Client, Product e Wishlist
+
+_Client Endpoints_
+![swagger-controller-product](https://user-images.githubusercontent.com/60053229/118902353-de387780-b8eb-11eb-8d7d-162663f80cdd.PNG)
+
+_Product Endpoints_
+![swagger-controller-client](https://user-images.githubusercontent.com/60053229/118902307-c7922080-b8eb-11eb-9112-bfcdd53db279.PNG)
+
+_Viagem Endpoints_
+![swagger-controller-wishlist](https://user-images.githubusercontent.com/60053229/118902398-f27c7480-b8eb-11eb-9974-225c263aaa57.PNG)
+
+EndPoints adicionais:
+
+_Client_
+![end-point-adicional-client](https://user-images.githubusercontent.com/60053229/118973499-1f5e7500-b948-11eb-8ed8-eec21cb0da2c.PNG)
+
+_Product_
+![end-point-adicional-product](https://user-images.githubusercontent.com/60053229/118973581-3604cc00-b948-11eb-8e16-c7f9c7699a92.png)
 
 
 ### <p align="center"> Equipe desenvolvedora </p>
@@ -41,13 +130,13 @@ requisitos:**
         <p align="center">
             </a>
             <a href="https://github.com/edithsoares">
-                   <img src="https://img.shields.io/badge/-Github-000?style=flat-square&logo=Github&logoColor=white&link=https://github.com/edithsoares">
+                   <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/github/github-original.svg" height="30" width="30">
             </a>
-            <a href="https://github.com/edithsoares" rel="nofollow">
-                 <img src="https://img.shields.io/badge/-LinkedIn-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://github.com/edithsoares">
+            <a href="https://www.linkedin.com/in/edith-soares/" rel="nofollow">
+                 <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/linkedin/linkedin-original.svg" height="30" width="30">
             </a>
             <a href="mailto:edith.soaares@gmail.com">
-                  <img src="https://img.shields.io/badge/-Gmail-red?style=flat-square&labelColor=red&logo=gmail&logoColor=white&link=https://edith.soaares@gmail.com">
+                  <img src="https://user-images.githubusercontent.com/60053229/118977653-c8a76a00-b94c-11eb-8832-e815ed684ccf.png" height="30" width="30">
             </a>
        </p>
 </td>
@@ -58,18 +147,17 @@ requisitos:**
         <p align="center">
             </a>
             <a href="https://github.com/pollyana245?tab=packages">
-                   <img src="https://img.shields.io/badge/-Github-000?style=flat-square&logo=Github&logoColor=white&link=https://github.com/pollyana245?">
+                   <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/github/github-original.svg" height="30" width="30">
             </a>
             <a href="https://www.linkedin.com/in/pollyana-veloso-8a19971a6" rel="nofollow">
-                 <img src="https://img.shields.io/badge/-LinkedIn-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/pollyana-veloso-8a19971a6">
+                 <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/linkedin/linkedin-original.svg" height="30" width="30">
             </a>
             <a href="mailto:pollyvel20@gmail.com">
-                  <img src="https://img.shields.io/badge/-Gmail-red?style=flat-square&labelColor=red&logo=gmail&logoColor=white&link=pollyvel20@gmail.com">
+                  <img src="https://user-images.githubusercontent.com/60053229/118977653-c8a76a00-b94c-11eb-8832-e815ed684ccf.png" height="30" width="30">
             </a>
        </p>
 </td>
 
-//CONTINUAR AQUI
  <td align="center"><br>
         <a href="">
             <img src="https://avatars.githubusercontent.com/u/83829276?v=4" width="105px;" alt="Marcela Lima" style="max-width:100%;border-radius: 50%;">
@@ -77,13 +165,13 @@ requisitos:**
         <p align="center">
             </a>
             <a href="https://github.com/Marcela34">
-                   <img src="https://img.shields.io/badge/-Github-000?style=flat-square&logo=Github&logoColor=white&link=https://github.com/Marcela34">
+                   <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/github/github-original.svg" height="30" width="30">
             </a>
             <a href="https://www.linkedin.com/in/marcela-lima-a80aa4211" rel="nofollow">
-                 <img src="https://img.shields.io/badge/-LinkedIn-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/marcela-lima-a80aa4211">
+                 <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/linkedin/linkedin-original.svg" height="30" width="30">
             </a>
             <a href="mailto:limamarcela6795@gmail.com">
-                  <img src="https://img.shields.io/badge/-Gmail-red?style=flat-square&labelColor=red&logo=gmail&logoColor=white&link=limamarcela6795@gmail.com">
+                  <img src="https://user-images.githubusercontent.com/60053229/118977653-c8a76a00-b94c-11eb-8832-e815ed684ccf.png" height="30" width="30">
             </a>
        </p>
 </td>
@@ -93,14 +181,14 @@ requisitos:**
             <br><sub><b>Maria Tereza</b></sub><br>
         <p align="center">
             </a>
-            <a href="">
-                   <img src="https://img.shields.io/badge/-Github-000?style=flat-square&logo=Github&logoColor=white&link=https://github.com/Marcela34">
+            <a href="Github">
+                   <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/github/github-original.svg" height="30" width="30">
             </a>
             <a href="https://www.linkedin.com/in/maria-tereza-altarugio-de-oliveira-778621135">
-                 <img src="https://img.shields.io/badge/-LinkedIn-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/maria-tereza-altarugio-de-oliveira-778621135">
+                 <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/linkedin/linkedin-original.svg" height="30" width="30">
             </a>
             <a href="mailto:therezaaltarugio@gmail.com">
-                  <img src="https://img.shields.io/badge/-Gmail-red?style=flat-square&labelColor=red&logo=gmail&logoColor=white&link=therezaaltarugio@gmail.com">
+                  <img src="https://user-images.githubusercontent.com/60053229/118977653-c8a76a00-b94c-11eb-8832-e815ed684ccf.png" height="30" width="30">
             </a>
        </p>
 </td>
@@ -111,13 +199,13 @@ requisitos:**
         <p align="center">
             </a>
             <a href="">
-                   <img src="https://img.shields.io/badge/-Github-000?style=flat-square&logo=Github&logoColor=white&link=">
+                   <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/github/github-original.svg" height="30" width="30">
             </a>
             <a href="https://www.linkedin.com/in/larissa-palhao-lanfranchi-47655420a/">
-                 <img src="https://img.shields.io/badge/-LinkedIn-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https:https://www.linkedin.com/in/larissa-palhao-lanfranchi-47655420a/">
+                 <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/linkedin/linkedin-original.svg" height="30" width="30">
             </a>
             <a href=" ">
-                  <img src="https://img.shields.io/badge/-Gmail-red?style=flat-square&labelColor=red&logo=gmail&logoColor=white&link=">
+                  <img src="https://user-images.githubusercontent.com/60053229/118977653-c8a76a00-b94c-11eb-8832-e815ed684ccf.png" height="30" width="30">
             </a>
        </p>
 </td>
