@@ -33,7 +33,7 @@ produtos de sua preferência e armazená-los na sua Wishlist. A qualquer momento
 completa, com todos os produtos que ele selecionou em uma única tela.
 
 Essa API permite a aplicação do conhecimento que desenvolvemos durante o curso.Colocando em prática os conceitos e
-axercicos propostos, centralizando as principais caractericas de uma Wishlist.
+exercicios propostos, centralizando as principais caractericas de uma Wishlist.
 
 _Voce pode testar o projeto hospedado no Heroku clicando [Aqui](https://finalchallenger-api.herokuapp.com/swagger-ui.html#)_
 
@@ -128,7 +128,7 @@ _Product_
             <img src="https://avatars.githubusercontent.com/u/60053229?v=4" width="105px;" alt="Edith Soares" style="max-width:100%;border-radius: 50%;">
             <br><sub><b>Edith Soares</b></sub><br>
         <p align="center">
-            </a>
+            </a><br>
             <a href="https://github.com/edithsoares">
                    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/github/github-original.svg" height="30" width="30">
             </a>
@@ -145,7 +145,7 @@ _Product_
             <img src="https://avatars.githubusercontent.com/u/83894378?v=4" width="105px;" alt="Pollyana Veloso" style="max-width:100%;border-radius: 50%;">
             <br><sub><b>Pollyana Veloso</b></sub><br>
         <p align="center">
-            </a>
+            </a><br>
             <a href="https://github.com/pollyana245?tab=packages">
                    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/github/github-original.svg" height="30" width="30">
             </a>
@@ -163,7 +163,7 @@ _Product_
             <img src="https://avatars.githubusercontent.com/u/83829276?v=4" width="105px;" alt="Marcela Lima" style="max-width:100%;border-radius: 50%;">
             <br><sub><b>Marcela Lima</b></sub><br>
         <p align="center">
-            </a>
+            </a><br>
             <a href="https://github.com/Marcela34">
                    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/github/github-original.svg" height="30" width="30">
             </a>
@@ -180,7 +180,7 @@ _Product_
             <img src="https://media-exp1.licdn.com/dms/image/C4E03AQEvax-YywQ5_Q/profile-displayphoto-shrink_800_800/0/1520895453031?e=1626307200&v=beta&t=RobigoX5QOGHIOSDcs7Zqiq3eTopU3lc3wBE2zO506U" width="105px;" alt="Maria Tereza" style="max-width:100%;border-radius: 50%;">
             <br><sub><b>Maria Tereza</b></sub><br>
         <p align="center">
-            </a>
+            </a><br>
             <a href="Github">
                    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/github/github-original.svg" height="30" width="30">
             </a>
@@ -197,7 +197,7 @@ _Product_
             <img src="https://media-exp1.licdn.com/dms/image/C4E03AQE6FGRIkmi9QA/profile-displayphoto-shrink_800_800/0/1620351775178?e=1626307200&v=beta&t=ZnnNt9FzKCnidGL6MQtmQQR7oUCyZ8q70viHGOAfFto" width="105px;" alt="Maria Tereza" style="max-width:100%;border-radius: 50%;">
             <br><sub><b>Larissa Palhao</b></sub><br>
         <p align="center">
-            </a>
+            </a><br>
             <a href="">
                    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/github/github-original.svg" height="30" width="30">
             </a>
