@@ -8,7 +8,6 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
-import spg.finalchallenge.entity.Client;
 import spg.finalchallenge.entity.Product;
 import spg.finalchallenge.payload.Response;
 import spg.finalchallenge.service.ProductService;

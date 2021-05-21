@@ -13,8 +13,6 @@ import spg.finalchallenge.payload.Response;
 import spg.finalchallenge.service.ProductService;
 import spg.finalchallenge.service.WishlistService;
 
-import java.math.BigDecimal;
-import java.math.MathContext;
 import java.util.List;
 
 @RestController
