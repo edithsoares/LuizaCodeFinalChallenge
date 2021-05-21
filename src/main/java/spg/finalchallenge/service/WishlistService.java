@@ -41,7 +41,6 @@ public class WishlistService {
         wishlist.setQuantity(total);
     }
 
-
     //    Subtrai o valor do produto removido
     public void subTotal(Wishlist wishlist) {
         BigDecimal total = BigDecimal.ZERO;
