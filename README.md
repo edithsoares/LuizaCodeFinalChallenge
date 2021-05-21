@@ -196,23 +196,6 @@ _Product_
             </a>
        </p>
 </td>
-<td align="center"><br>
-        <a href="">
-            <img src="https://media-exp1.licdn.com/dms/image/C4E03AQE6FGRIkmi9QA/profile-displayphoto-shrink_800_800/0/1620351775178?e=1626307200&v=beta&t=ZnnNt9FzKCnidGL6MQtmQQR7oUCyZ8q70viHGOAfFto" width="105px;" alt="Maria Tereza" style="max-width:100%;border-radius: 50%;">
-            <br><sub><b>Larissa Palhao</b></sub><br>
-        <p align="center">
-            </a><br>
-            <a href="">
-                   <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/github/github-original.svg" height="30" width="30">
-            </a>
-            <a href="https://www.linkedin.com/in/larissa-palhao-lanfranchi-47655420a/">
-                 <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/linkedin/linkedin-original.svg" height="30" width="30">
-            </a>
-            <a href=" ">
-                  <img src="https://user-images.githubusercontent.com/60053229/118977653-c8a76a00-b94c-11eb-8832-e815ed684ccf.png" height="30" width="30">
-            </a>
-       </p>
-</td>
 </table>
 
     
