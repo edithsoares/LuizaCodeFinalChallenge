@@ -53,6 +53,9 @@ _Voce pode testar o projeto hospedado no Heroku clicando [Aqui](https://finalcha
 * EndPoints que podem ser usados por uma aplicação FrontEnd
 * Exemplo de um database simples, porém com relacionamentos do tipo OneToOne e OneToMany
 
+* Diagrama 
+
+![Untitled Diagram (1)](https://user-images.githubusercontent.com/60053229/119182165-f4a81580-ba48-11eb-93f6-b67d38ea8bb9.png)
 
 ## Tecnologias Utilizadas: <br><br>
 
@@ -108,7 +111,7 @@ _Client Endpoints_
 _Product Endpoints_
 ![swagger-controller-client](https://user-images.githubusercontent.com/60053229/118902307-c7922080-b8eb-11eb-9112-bfcdd53db279.PNG)
 
-_Viagem Endpoints_
+_Wishlist Endpoints_
 ![swagger-controller-wishlist](https://user-images.githubusercontent.com/60053229/118902398-f27c7480-b8eb-11eb-9974-225c263aaa57.PNG)
 
 EndPoints adicionais:
