@@ -14,29 +14,23 @@ public class ClientService {
     @Autowired
     private ClientRepository clientRepository;
 
-//  Cadastrar clients
     public Client saveClient(Client client){
         return clientRepository.save(client);
     }
 
-//  Buscar todos os Clients
     public List<Client> listAllClient(){
         return clientRepository.findAll();
     }
 
-    public  Client findByCpfClient(String cpf){
+    public Client findByCpf(String cpf) {
         return clientRepository.findByCpf(cpf);
-    }
-
-    public void deleteClient(Client client) {
-        clientRepository.delete(client);
     }
 
     public Client getId(long id) {
         return clientRepository.findById(id);
     }
 
-    public Optional<Client> findByIdClient(Long id) {
+    public Optional<Client> findById(Long id) {
         return clientRepository.findById(id);
     }
 
@@ -44,7 +38,17 @@ public class ClientService {
         return clientRepository.save(client);
     }
 
+    public void deleteClient(Client client) {
+        clientRepository.delete(client);
+    }
+
     public long count() {
         return clientRepository.count();
     }
+
+
+
+//    public void delete(long id){
+//        clientRepository.deleteById(id);
+//    }
 }

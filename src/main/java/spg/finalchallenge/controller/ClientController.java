@@ -29,11 +29,37 @@ public class ClientController {
             @ApiResponse(code = 500, message = "An exception was thrown", response = Response.class),
     })
     @PostMapping("/client")
-    public ResponseEntity<?> saveClient(@RequestBody Client client){
-        try{
-            return new ResponseEntity<>(clientService.saveClient(client), HttpStatus.CREATED);
+    public ResponseEntity<?> createClient(@RequestBody Client client){
+        try {
+            Client clientResultCpf = clientService.findByCpf(client.getCpf());
+            if (clientResultCpf == null){
+                return new ResponseEntity<>(clientService.saveClient(client), HttpStatus.CREATED);
+            }
+            return new ResponseEntity<>(new Response(false, "Cpf já existe!"), HttpStatus.CONFLICT);
         }catch (Exception e){
-            return new ResponseEntity<>( new Response(false, "Request Errors"),
+            return new ResponseEntity<>(new Response(false,"Request Errors"),
+                    HttpStatus.BAD_REQUEST);
+        }
+    }
+
+    @ApiOperation(value = "Search client by Id")
+    @ApiResponses(value ={
+            @ApiResponse(code = 200, message = "Return Client", response = Response.class),
+            @ApiResponse(code = 401, message = "You do not have permission to access this feature.", response = Response.class),
+            @ApiResponse(code = 404, message = "List products not found", response = Response.class),
+            @ApiResponse(code = 500, message = "An exception was thrown", response = Response.class),
+    })
+    @GetMapping("/client/{id}")
+    public ResponseEntity<?> getClientById(@PathVariable Long id){
+        try {
+            Optional<Client> clientResultId = clientService.findById(id);
+            if (clientResultId.isPresent()){
+                return new ResponseEntity<>(clientResultId, HttpStatus.OK);
+            }
+            return new ResponseEntity<>(new Response(false, "Client not foud"),
+                    HttpStatus.NOT_FOUND);
+        }catch (Exception e){
+            return new ResponseEntity<>(new Response(false, "Request Errors"),
                     HttpStatus.BAD_REQUEST);
         }
     }
@@ -72,7 +98,7 @@ public class ClientController {
     @PutMapping("/client/update/{id}")
     public ResponseEntity<?> updateClient(@PathVariable long id, @RequestBody Client client){
         try {
-            Optional<Client> clientResult = clientService.findByIdClient(id);
+            Optional<Client> clientResult = clientService.findById(id);
             if (clientResult.isPresent()){
                 client.setId(clientResult.get().getId());
                 return new ResponseEntity<>(clientService.update(client), HttpStatus.OK);
@@ -84,7 +110,28 @@ public class ClientController {
             return new ResponseEntity<>( new Response(false, "Request Errors"),
                     HttpStatus.BAD_REQUEST);
         }
+    }
 
+    @ApiOperation(value = "Delete client by Id")
+    @ApiResponses(value ={
+            @ApiResponse(code = 200, message = "Returns the cpf deleted", response = Response.class),
+            @ApiResponse(code = 401, message = "You do not have permission to access this feature.", response = Response.class),
+            @ApiResponse(code = 404, message = "List products not found", response = Response.class),
+            @ApiResponse(code = 500, message = "An exception was thrown", response = Response.class),
+    })
+    @DeleteMapping("client/id/{id}")
+    public ResponseEntity<?> deleteById(@PathVariable long id){
+        try {
+             Client clientResultId = clientService.getId(id);
+            if (clientResultId != null){
+                clientService.deleteClient(clientResultId);
+                return new ResponseEntity<>(new Response(true, "Client deleted id: " + id ),
+                        HttpStatus.OK);
+            }
+            return new ResponseEntity<>(new Response(false, "Id not found " + clientResultId.getId()), HttpStatus.NOT_FOUND);
+        }catch (Exception e){
+            return new ResponseEntity<>(new Response(false, "Request erros"), HttpStatus.BAD_REQUEST);
+        }
     }
 
     @ApiOperation(value = "Delete client by Cpf")
@@ -97,7 +144,7 @@ public class ClientController {
     @DeleteMapping("client/delete/{cpf}")
     public ResponseEntity<?> deleteClientByCpf(@PathVariable String cpf){
         try {
-            Client client = clientService.findByCpfClient(cpf);
+            Client client = clientService.findByCpf(cpf);
             if (client != null){
                 clientService.deleteClient(client);
                 return new ResponseEntity<>(new Response(true, "Cliente deleted cpd: " + cpf ),
